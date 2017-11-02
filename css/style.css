@@ -1,0 +1,242 @@
+/* General Styles */
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #8a8e8e;
+}
+section {
+    padding: 4% 0;
+    background-color: #f0f4f5;
+}
+.title-section h2 {
+    color: #f00;
+    font-weight: 600;
+    margin-bottom: 1.6em;
+}
+.bg-box-radius {
+    background: #f0f4f5;
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px #8f8f8f;
+    height: 63px;
+    display: table;
+}
+/* Header Styles  */
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-default {
+    background-color: #f00;
+    z-index: 5;
+}
+.navbar-brand {
+    padding: 15px 15px;
+    margin: 0 auto;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 1.15em;
+}
+.navbar-default .nav {
+  width: 83%;
+}
+.link-comprar-ahora {
+    padding: 21px 0 0 10px;
+    text-decoration: underline;
+}
+.link-comprar-ahora>a {
+    font-size: 14px;
+    color: #fff;
+}
+.button-comprar {
+  background: #81BB00;
+}
+.button-comprar a {
+  color: #f00;
+}
+.navbar-toggle {
+    float: left;
+    padding: 13px 10px;
+    border-radius: 4px;
+}
+.navbar-default .navbar-toggle {
+    border-radius: 50%;
+    background: #fff;
+    border-color: #f00;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f00;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+     background-color: #fbdfe4;
+}
+
+/* Home Style */
+.home {
+    height: 100vh;
+    background: url(../img/1-inicio/1.background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.home .row {
+    margin-top: 6%;
+}
+.home .characters {
+    position: absolute;
+    bottom: 0;
+}
+.home .home-advice {
+    margin-top: 2%;
+    padding: 0 0 2% 5%;
+    font-size: 1.25em;
+}
+.texto-promo a:hover, .chat>a:hover {
+    text-decoration: none;
+}
+.fixed {
+    position: fixed;
+    background-color: #fff;
+    z-index: 5;
+    padding: 14px;
+}
+.social-media {
+    left: 2%;
+    bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+.social-media img{
+    margin: 0 7px;
+}
+.chat {
+  right: 0;
+  bottom: 50px;
+  border-radius: 5px 0 0 5px;
+}
+/*.chat img {
+  display: inline-block;
+}*/
+.chat span {
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+/* Style que cubre, que no cubre */
+.item-cobertura, .item-no-cobertura{
+    margin-bottom: 1.4em;
+}
+.item-cobertura .text-cobertura, .text-no-cobertura {
+    margin-top: 14px;
+    padding: 0;
+    font-size: 1.1em;
+    color: #8a8e8e;
+    display: table;
+    height: 63px;
+}
+.cobertura-check {
+    margin-top: 1.5em;
+}
+.link-masinfo {
+    margin-top: 2em;
+}
+.link-masinfo a {
+    text-decoration: underline;
+    color: #f00;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+#quenocubre {
+    background: #fff;
+}
+
+.text-cobertura p, .bg-box-radius p {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 7px;
+}
+
+/* Style como usarlo*/
+.text-advice {
+    margin-top: 3em;
+}
+/* Style clinicas afiliadas*/
+#clinicas {
+    padding: 10% 0 5% 0;
+}
+.title-section>.title-black {
+    color: #212121;
+    font-size: 1.5em;
+    margin-bottom: 3px;
+}
+.form-search input {
+    height: 50px;
+}
+.form-search button {
+    background: #81BB00;
+    border-color: #81BB00;
+    margin: 21px 0;
+}
+
+.form-search button:hover {
+    background-color: #81a630;
+    border-color: #81a630;
+}
+.bg-box-radius {
+    background: #fff;
+    height: 56px;
+}
+
+/* Style Contactanos*/
+
+button.btn-contactenos {
+    background: #F00;
+    border: 0;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+
+button.btn-contactenos:focus{
+    color: #fff !important;
+}
+
+div.validaciones p {
+    margin:0px;
+    padding:0px;
+    color:#F00;
+    font-size:15px;
+    margin-bottom:15px;
+}
+/* Style formulario */
+
+input.btn-contactenos , button.btn-contactenos {
+    background: #F00;
+    border: 0;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+
+input.btn-contactenos, button.btn-contactenos:focus{
+    color: #fff !important;
+}
+
+div.validaciones p {
+    margin:0px;
+    padding:0px;
+    color:#F00;
+    font-size:15px;
+    margin-bottom:15px;
+}
+
+div p.title-paso1{
+    display: inline-block;
+    font-size: 2em !important;
+    margin-bottom: 1em;
+    margin-left: 5px;
+}
+
+/** Formulario */
