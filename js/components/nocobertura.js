@@ -1,9 +1,9 @@
 const dataNoCobertura = [
-  {img:"3-no-accidente.png", text:"Todo lo que <span class='text-red'>no</span> sea a consecuencia de un accidente.", alt:"imagen accidente"},
-  {img:"3-clinicas-no-afiliadas.png", text:"Atenciones en clínicas <span class='text-red'>no</span> afiliadas.", alt:"imagen clinicas no afiliadas"},
+  {img:"3-no-accidente.png", text:"Todo lo que no sea a consecuencia de un accidente.", alt:"imagen accidente"},
+  {img:"3-clinicas-no-afiliadas.png", text:"Atenciones en clínicas no afiliadas.", alt:"imagen clinicas no afiliadas"},
   {img:"3-insolacion.png", text:"Insolación.", alt:"imagen insolación"},
   {img:"3-intoxicacion.png", text:"Intoxicación.", alt:"imagen intoxicación"},
-  {img:"3-equipos-ortopedicos.png", text:"Equipos ortopédicos, prótesis y audífonos.", alt:"imagen equipos ortopédicos"},
+  {img:"3-equipos-ortopedicos.png", text:"Equipos ortopédicos, prótesis y audifonos.", alt:"imagen equipos ortopédicos"},
   {img:"3-transplante.png", text:"Transplante de órganos así sean derivados de un accidente.", alt:"imagen transplante"}
 ];
 $( () => {

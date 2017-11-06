@@ -4,16 +4,13 @@
     color: #8a8e8e;
 }
 section {
-    padding: 42px 0;
+    padding: 4% 0;
     background-color: #f0f4f5;
-}
-img {
-    margin: 0 auto;
 }
 .title-section h2 {
     color: #f00;
     font-weight: 600;
-    margin: .5em 0 1.2em;
+    margin-bottom: 1.6em;
 }
 .bg-box-radius {
     background: #f0f4f5;
@@ -22,74 +19,62 @@ img {
     height: 63px;
     display: table;
 }
-.bg-white {
-    background: #fff;
-}
-.link-red {
-  color: #f00;
-  text-decoration: underline;
-  font-weight: 500;
-}
-.text-red {
-  color: #f00;
-  font-weight: 600;
-}
 /* Header Styles  */
-.logo a {
-  padding-top: 12px;
-}
 .navbar {
-    background-color: #f00;
-    z-index: 5;
     margin-bottom: 0;
 }
-.navbar-default .navbar-nav .button-comprar {
-    margin: 7px 0;
+.navbar-default {
+    background-color: #f00;
+    z-index: 5;
+}
+.navbar-brand {
+    padding: 15px 15px;
+    margin: 0 auto;
 }
 .navbar-default .navbar-nav>li>a {
-    margin: 0 22px;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.15em;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #ff0000;
-    background-color: #fbdfe4;
+.navbar-default .nav {
+  width: 83%;
 }
-.navbar-default .navbar-toggle {
+.link-comprar-ahora {
+    padding: 21px 0 0 10px;
+    text-decoration: underline;
+}
+.link-comprar-ahora>a {
+    font-size: 14px;
+    color: #fff;
+}
+.button-comprar {
+  background: #81BB00;
+}
+.button-comprar a {
+  color: #f00;
+}
+.navbar-toggle {
     float: left;
     padding: 13px 10px;
+    border-radius: 4px;
+}
+.navbar-default .navbar-toggle {
     border-radius: 50%;
     background: #fff;
     border-color: #f00;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #f00;
 }
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-     background-color: #fbdfe4;
-}
-.navbar-default .navbar-nav>.button-comprar>a {
-  background: #81bb00;
-  border-radius: 5px;
-  padding: 10px 14px;
-}
-.navbar-default .navbar-nav>.button-comprar>a:hover {
-    background-color: #81a630;
-    border-color: #81a630;
-    color: #fff;
-}
 
-.dropdown-toggle .caret {
-  color: #fff;
-}
-.navbar-default .navbar-nav>.mas-links>a {
-    margin-left: 0;
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+     background-color: #fbdfe4;
 }
 
 /* Home Style */
 .home {
     height: 100vh;
-    background: url(../img/1-inicio/1-background.png);
+    background: url(../img/1-inicio/1.background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -114,25 +99,27 @@ img {
     position: fixed;
     background-color: #fff;
     z-index: 5;
-    padding: 10px;
+    padding: 14px;
 }
 .social-media {
     left: 2%;
     bottom: 0;
-    border-radius: 7px 7px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 .social-media img{
-    margin: 0 4px;
+    margin: 0 7px;
 }
 .chat {
   right: 0;
   bottom: 50px;
-  border-radius: 7px 0 0 7px;
+  border-radius: 5px 0 0 5px;
 }
+/*.chat img {
+  display: inline-block;
+}*/
 .chat span {
   display: inline-block;
   font-size: 0.8em;
-  vertical-align: middle;
 }
 
 /* Style que cubre, que no cubre */
@@ -148,19 +135,19 @@ img {
     height: 63px;
 }
 .cobertura-check {
-    margin-top: 3.5%;
-}
-.cobertura-check div div {
-    padding-right: 0;
+    margin-top: 1.5em;
 }
 .link-masinfo {
-    margin: 2.5em 0;
+    margin-top: 2em;
 }
 .link-masinfo a {
     text-decoration: underline;
     color: #f00;
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 700;
+}
+#quenocubre {
+    background: #fff;
 }
 
 .text-cobertura p, .bg-box-radius p {
@@ -171,14 +158,7 @@ img {
 
 /* Style como usarlo*/
 .text-advice {
-    margin-top: 1.8em;
-}
-.text-advice-1 {
-  margin-top: 4em;
-}
-/* Como comprar*/
-.item-como-comprar {
-  margin-bottom: 14px;
+    margin-top: 3em;
 }
 /* Style clinicas afiliadas*/
 #clinicas {
@@ -187,18 +167,14 @@ img {
 .title-section>.title-black {
     color: #212121;
     font-size: 1.5em;
-    font-weight: 500;
     margin-bottom: 3px;
 }
 .form-search input {
     height: 50px;
 }
-.form-search a {
-    margin-top: 8px;
-}
 .form-search button {
-    background: #81bb00;
-    border-color: #81bb00;
+    background: #81BB00;
+    border-color: #81BB00;
     margin: 21px 0;
 }
 
@@ -214,7 +190,7 @@ img {
 /* Style Contactanos*/
 
 button.btn-contactenos {
-    background: #f00;
+    background: #F00;
     border: 0;
     -webkit-border-radius: 6px;
     border-radius: 6px;
@@ -233,46 +209,10 @@ div.validaciones p {
     font-size:15px;
     margin-bottom:15px;
 }
-/* Style que opinan*/
-.estrellas {
-  margin-top: 5%;
-}
-.que-opinan-borde {
-  border-top: 1px solid #8a8e8e;
-  border-bottom: 1px solid #8a8e8e;
-  margin-bottom: 5%;
-}
-.cliente-opinion {
-  margin-bottom: 10px;
-  border-radius: 5px;
-}
-.bar-estrella {
-  padding: 0;
-}
-.container-progress {
-  margin-bottom: 1%;
-}
-.progress-bar {
-  background-color: #fbce0d;
-}
-.pagination>li>a {
-  color: #8a8e8e;
-}
-
-.pagination>.active>a, .pagination>.active>a:hover {
-    background-color: #81bb00;
-    border-color: #81bb00;
-}
-
 /* Style formulario */
-.title-section span{
-  color: #212121;
-}
-select>option {
-  color: #212121;
-}
+
 input.btn-contactenos , button.btn-contactenos {
-    background: #f00;
+    background: #F00;
     border: 0;
     -webkit-border-radius: 6px;
     border-radius: 6px;
@@ -299,197 +239,4 @@ div p.title-paso1{
     margin-left: 5px;
 }
 
-section#formulario{
-    background-color: #fff;
-    color: #222;
-}
-
-.form-title{
-    margin: 40px 0px 20px 0px;
-    text-align: center;
-    padding: 0px;
-}
-
-.field-invisible {
-    display: none;
-}
-
-.otro-doc-ingresado{
-    text-transform:uppercase;
-}
-
-.req_val{
-    max-height: 65px;
-    min-height: 40px;
-}
-
-label.error{
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-    font-weight: 100;
-    color: #F00;
-    padding-left: 5px;
-}
-
-.form-doc{
-     -webkit-border-radius: 3px;
-    border-radius: 3px;
-    border: 1px solid #B7B7B7;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 40px;
-    margin: 0px;
-    padding: 4px 8px;
-    width: 100%;
-    background: #fff;
-    color: #222;
-}
-
-.btn-enviar{
-    margin-top:20px;
-    margin-bottom: 10px;
-}
-
-.form_label{
-    display: inline-block;
-    vertical-align: middle;
-    width: 38%;
-    font-weight: 100;
-    text-align:right;
-    margin-right: 10px;
-}
-
-.req_val_hijo{
-    height: 40px;
-}
-
-.form-hijo{
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: 1px solid #B7B7B7;
-    -webkit-border-radius: 0;
-    background: none;
-    display: inline-block;
-    height: 25px;
-    padding: 0;
-    vertical-align: middle;
-    width: 50%;
-    color: #222;
-}
-
-.otro-doc-ingresado{
-    text-transform:uppercase;
-}
-::-webkit-input-placeholder { /* WebKit browsers */
-    text-transform: none;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    text-transform: none;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    text-transform: none;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-    text-transform: none;
-}
-
-#direccion, #hijos, #culqi {
-    display: none;
-}
-
-/* Style pagina de confirmación*/
-.pasos {
-  margin: 2% 0 5%;
-}
-.confirmacion {
-  margin-top: 4%;
-}
-.texto-confirmacion {
-    border: 3px solid #81bb00;
-    border-radius: 7px;
-    padding: 5%;
-    margin-top: 4%;
-}
-
-/** Media Querys **/
-@media screen and (max-width:750px){
-    section {
-        padding: 14% 0;
-    }
-    .home {
-        background: url(../img/1-inicio/bg-movil.png);
-        background-size: cover;
-        margin-top: 60px;
-        padding: 5% 0;
-    }
-    .home-title {
-        margin-bottom: 3%;
-    }
-    iframe {
-      width: 100%;
-    }
-    .form-search button {
-        margin: 14px 0;
-    }
-    .links .nav a {
-      color: #fff;
-      font-size: 1.15em;
-      font-weight: 500;
-      padding: 5px;
-      text-decoration: underline;
-    }
-    /**/
-    .text-advice {
-        margin: 7px 0;
-    }
-    .text-advice-1 {
-      margin-top: 12px;
-    }
-    .item-como-usar {
-      margin: 10px 0;
-    }
-/**/
-    .logo a {
-        padding-top: 15px;
-    }
-    .btn-mob-comprar {
-        padding: 16px 0 0 13px;
-    }
-    .btn-mob-comprar>a {
-        font-size: 14px;
-        color: #fff;
-        background: #81bb00;
-        padding: 5px 7px;
-        border-radius: 5px;
-    }
-    .btn-mob-comprar>a:hover {
-      text-decoration: none;
-    }
-    .logo {
-      padding: 2px 5px;
-    }
-    .logo img {
-      width: 130px;
-    }
-    .pasos {
-      margin: 21% 0 5%;
-    }
-
-}
-@media screen and (max-width:970px) {
-    .navbar-default .navbar-nav>li>a {
-        margin: 0 -2px;
-    }
-    .estrellas {
-        margin-top: 3%;
-    }
-    .pasos {
-        margin: 7% 0 5%;
-    }
-    .confirmacion {
-        margin-top: 2%;
-    }
-}
+/** Formulario */
