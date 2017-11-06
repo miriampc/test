@@ -1,6 +1,6 @@
 const dataContacto = [
-  {img:"7-llamanos.png", text:"Llamanos al <strong>411-1000 anexo 1860</strong>", alt:"imagen teléfono"},
-  {img:"7-whatsapp.png", text:"Envianos un Whatsapp al <strong>957-228-859</strong>", alt:"imagen Whatsapp"},
+  {img:"7-llamanos.png", text:"Llámanos al <strong>411-1000 anexo 1860</strong>", alt:"imagen teléfono"},
+  {img:"7-whatsapp.png", text:"Envíanos un Whatsapp al <strong>957-228-859</strong>", alt:"imagen Whatsapp"},
   {img:"7-chat.png", text:"Chatea con nosotros.", alt:"imagen chat"}
 ];
 $(() => {
